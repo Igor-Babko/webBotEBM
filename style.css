@@ -8,6 +8,7 @@ body {
 
 .container {
 	max-width: 390px;
+	margin: auto auto;
 }
 
 .inner {
