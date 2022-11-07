@@ -8,13 +8,15 @@ body {
 
 .container {
 	max-width: 390px;
-	margin: auto auto;
+	
 }
 
 .inner {
+	margin: auto auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
+	
 }
 
 .img {
