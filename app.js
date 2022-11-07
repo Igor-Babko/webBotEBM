@@ -17,14 +17,14 @@ let btn6 = document.getElementById("btn6");
 btn1.addEventListener("click", function(){
 	
 	tg.sendData("Расписание")
-// 	if (tg.MainButton.isVisible) {
-// 		tg.MainButton.hide();
-// 	}
-// 	else {
-// 		tg.MainButton.setText("Вы выбрали товар 1!");
-// 		item = "1";
-// 		tg.MainButton.show();
-// 	}
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар 1!");
+		item = "1";
+		tg.MainButton.show();
+	}
 });
 
 btn2.addEventListener("click", function(){
