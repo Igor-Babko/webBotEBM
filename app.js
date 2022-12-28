@@ -19,13 +19,13 @@ btn1.addEventListener("click", function(){
 	tg.sendData("Расписание")
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
-		bot.sendPhoto(chatId, 'вопрос.png')
+		
 	}
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
 		item = "1";
 		tg.MainButton.show();
-		bot.sendPhoto(chatId, 'вопрос.png')
+		
 	}
 });
 
