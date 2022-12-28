@@ -24,6 +24,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.setText("Вы выбрали товар 1!");
 		item = "1";
 		tg.MainButton.show();
+		bot.sendMessage('hi', resp)
 	}
 });
 
